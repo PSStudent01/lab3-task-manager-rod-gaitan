@@ -1,4 +1,4 @@
-import { TaskItemProps, TaskStatus } from '../../types';  //imports code from interfaces(types) TaskItemProps, TaskStatus of 'index.tx'
+import type { TaskItemProps, TaskStatus } from '../../types';  //imports code from interfaces(types) TaskItemProps, TaskStatus of 'index.tx'
 
 function TaskItem({ task, onStatusChange, onDelete }: TaskItemProps) { //function 'TaskItem' = defines a function called TaskItem, which is the component
                                                                        //{ task, onStatusChange, onDelete } = destructuring the 'props' object of 'TaskItemProps' type/interface {similar to a 'class' does in JS.}
