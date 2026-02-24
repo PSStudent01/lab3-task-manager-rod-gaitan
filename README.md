@@ -76,3 +76,7 @@ Priority Indicators:
 - High = Red bold text
 - Medium = Orange bold text
 - Low = Green bold text
+
+##
+Side Note:
+App works across all browsers, but in my own PC it fails to render some effect just on the Chrome.  I believe this to be local to my machine
